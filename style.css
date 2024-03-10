@@ -1,0 +1,47 @@
+html {
+  font-family: "Calibri", sans-serif;
+  font-size: 11px;
+}
+
+table {
+  table-layout: fixed;
+  line-height: 1.15;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  word-wrap: break-word;
+}
+
+.resume-container {
+  margin: auto;
+  padding: 4px;
+  border: 1px solid lightgray;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-start {
+  text-align: start;
+}
+
+.header-font-size {
+  font-size: 24px;
+}
+
+.text-align-end {
+  text-align: end;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+@media (min-width: 794px) {
+  .resume-container {
+    max-width: 794px;
+  }
+}
