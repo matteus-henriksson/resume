@@ -40,8 +40,8 @@ td {
   font-weight: bold;
 }
 
-@media (min-width: 794px) {
+@media (min-width: 210mm) {
   .resume-container {
-    max-width: 794px;
+    max-width: 210mm;
   }
 }
